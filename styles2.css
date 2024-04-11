@@ -137,41 +137,20 @@ nav h3{
     top: 80vh;
 
 }
-#heroshape2 {
-    width: 46vw;
-    height: 36vw;
-    position: absolute;
-    right: 10vh;
-    top: 55vh;
-}
-#hero-1 {
-    background-color: orangered;
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    filter: blur(20px);
-    position: absolute;
-}
 
-#hero-2 {
-    background: linear-gradient(orangered, rgb(255, 123, 0));
-    width: 30vw;
-    height: 30vw;
-    border-radius: 50%;
-    filter: blur(10px);
-    position: absolute;
-    animation: shape2 5s linear infinite alternate;
-}
+
+
+
 
 #hero-3 {
     background: linear-gradient(orangered, rgb(255, 123, 0));
-    width: 30vw;
-    height: 30vw;
+    width: 80vw;
+    height: 80vw;
     border-radius: 50%;
-    filter: blur(10px);
+    filter: blur(20px);
     position: absolute;
-    animation: shape 3s linear infinite alternate;
+    animation: shape 4s linear infinite alternate ease-in-out;
+    position: sticky;
 }
 
 @keyframes shape {
@@ -661,20 +640,314 @@ footer h1 {
     font-size: 9vw;
     margin-left: 20px;
     margin-top: 100px;
+    z-index: 23;
+    z-index: 23231232312;
+    position: absolute;
 }
 .imagemain {
     width: 10%
 }
+.parentdivprojects {
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+#heroshape2 {
+    width: 46vw;
+        height: 36vw;
+        position: absolute;
+        right:51vh;
+        top: 23vh;
+
+
+}
+#hero-3 {
+    background: linear-gradient(orangered, rgb(255, 123, 0));
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    filter: blur(30px);
+    position: absolute;
+    animation: shape2 5s linear infinite alternate;
+    
+}
+
+#hero-1 {
+    background-color: orangered;
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    filter: blur(9px);
+    position: absolute;
+    animation: shape2 5s linear infinite alternate;
+}
+
+#hero-2 {
+    background: orangered;  
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    filter: blur(60px);
+    position: absolute;
+    animation: shape2 5s linear infinite alternate;
+}
+
+.designs-list {
+    height: 230vh;
+    width: 100%;
+    /* border: 1px solid red;s */
+    position:relative;
+    opacity: 1;
+    z-index: 23;
+    top: -23vw;
+    display: flex;
+    /* overflow-y: scroll; */
+    padding-top: 90px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Style the cards */
+.card-1 p {
+    color: black;
+}
+  .card-1 {
+    width: 400px;
+    height: 280px;
+    background:transparent;
+  
+    border-radius: 10px;
+    margin: 1rem;
+    position: relative;
+    transition: transform 0.5s;
+    z-index: 23123;
+    color: black;
+  }
+  
+  .card-1:hover {
+    transform: scale(1.1) rotateY(20deg);
+    cursor: pointer;
+  }
+  
+  .card-1 .card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    width: 370px;
+    background: url('./media/Holding_thumb-p-500.webp');
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+.link-1 {
+    background: url('./media/anniversary.webp') !important;
+    width: 340px !important;
+    height: 430px !important;
+}
+.card-content {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.link-2 {
+    background: url('./media/airforce.webp') !important;
+    width: 350px !important;
+    height: 240px !important;
+}
+  
+  .card-2 .card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    width: 100%;
+    height: 380px;
+    border-radius: 16px;
+    width: 520px;
+    background: url('./media/Holding_thumb-p-500.webp');
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .card-content p {
+    font-size: 24px !important;
+    color: white;
+  }
+  .card-1:hover .card-content {
+    opacity: 1;
+  }
+  
+  .card-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .card-content p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
 @media (max-width:768px) {
+
+
+    .card-1 .card-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        width: 100%;
+        height: 400px;
+        border-radius:9px;
+        width: 360px;
+        background: url('./media/Holding_thumb-p-500.webp');
+        display:flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover
+      }
+    
+      .link-1 {
+        background: url('./media/anniversary.webp') !important;
+        height: 400px !important;
+        border-radius:9px;
+        width: 360px !important;
+    }
+    .card-content {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    .link-2 {
+        background: url('./media/airforce.webp') !important;
+        height: 400px !important;
+        border-radius:9px;
+        width: 360px !important;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     #projects-1 {
         text-align: left;
         font-size: 10vw;
-        margin-left: 20px;
+        margin-left: 25px;
         margin-top: 40px;
         transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
         transform-style: preserve-3d;
     }
+    .designs-list {
+        height: 440vh;
+        width: 100%;
+        border: 1px solid red;
+        position:relative;
+        opacity: 1;
+        z-index: 23;
+        top: -207vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+#hero-1 {
+    background-color: orangered;
+    width: 80vw;
+        height: 80vw;
+    border-radius: 50%;
+    filter: blur(9px);
+    position: absolute;
+    animation: shape2 5s linear infinite alternate;
+}
 
+#hero-2 {
+    background: orangered;  
+    width: 80vw;
+    height: 80vw;
+    border-radius: 50%;
+    filter: blur(30px);
+    position: absolute;
+    animation: shape2 5s linear infinite alternate;
+}
+
+    #hero-3 {
+        background: linear-gradient(orangered, rgb(255, 123, 0));
+        width: 80vw;
+        height: 80vw;
+        border-radius: 50%;
+        filter: blur(20px);
+        position: absolute;
+        animation: shape 4s linear infinite alternate ease-in-out;
+        position: sticky;
+    }
+    #heroshape2 {
+        width: 46vw;
+        height: 36vw;
+        position: absolute;
+        right:15vh;
+        top: 35vh;
+
+    }
+    .parentdivprojects {
+        /* border: 1px solid red; */
+        height: 100vh;
+    }
     .imagemain {
         width: 30%;
         height: 4vh;
